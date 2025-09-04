@@ -1,19 +1,20 @@
-import React from 'react';
-import Image from 'next/image';
+import Image from "next/image";
 
 interface LogoProps {
-  showText?: boolean;
   width?: number;
   height?: number;
 }
 
-const Logo: React.FC<LogoProps> = ({ showText = true, width = 50, height = 50 }) => {
+export default function Logo({ width = 300, height = 300 }: LogoProps) {
   return (
-    <div className="logo" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-      <Image src="/Logo.svg" alt="Logo DCrash" width={width} height={height} />
-      {showText && <span className="logo-text">DCrash</span>}
+    <div className="flex items-center gap-2">
+      <Image
+        src="/Logo.svg"
+        alt="Logo DCrash"
+        width={width}
+        height={height}
+        priority
+      />
     </div>
   );
-};
-
-export default Logo;
+}
