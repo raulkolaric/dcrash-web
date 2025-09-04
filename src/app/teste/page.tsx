@@ -6,8 +6,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-      <Logo></Logo>
-      <LoginButton></LoginButton>
       <Navbar></Navbar>
     </div>
   );
