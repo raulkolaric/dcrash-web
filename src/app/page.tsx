@@ -14,7 +14,9 @@ export default function Home() {
             <p className="font-medium opacity-60 text-center text-[18px]">+100,000 ocorrências <br></br>armazenadas</p>
             <LaurelBranchR></LaurelBranchR>
           </div>
-          <p className="text-gradient-to-b from-[#CBFBFF] to-[#80993A] text-center text-7xl pt-20 font-medium">Solucionando as rodovias,<br></br>utilizando dados.</p>
+          <p className="text-center text-7xl pt-20 font-medium bg-gradient-to-r from-[#C7FBFF] to-[#80993A] bg-clip-text text-transparent">
+            Solucionando as rodovias,<br />utilizando dados.
+          </p>          
           <p className="text-white/70 font-extralight text-center pt-20 text-[20px]">Transformamos informações de acidentes em rodovias em insights <br></br> para prevenção, planejamento e segurança. Entenda o passado, <br></br> proteja o futuro do trânsito.</p>
         </div> 
       </div>

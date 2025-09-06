@@ -3,3 +3,11 @@
 @theme {
   --font-display: "Roboto", sans-serif; 
 }
+
+.text-gradient {
+ color: #C7FBFF; 
+ background-image: linear-gradient(135deg , #80993A,#C7FBFF 100%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+}
