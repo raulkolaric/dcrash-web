@@ -1,24 +1,14 @@
-interface LoginButtonProps {
-  onClick?: () => void;
-  borderColorClass?: string;
-  backgroundColorClass?: string;
-}
-
-export default function LoginButton({
-  onClick,
-  borderColorClass = "border-blue-500",
-  backgroundColorClass = "bg-blue-500",
-}: LoginButtonProps) {
+export default function LoginButton() {
   return (
     <button
-      onClick={onClick}
-      className={`
-        border-2 ${borderColorClass} ${backgroundColorClass}
-        text-white font-bold
-        px-4 py-2 rounded-full
-        cursor-pointer
-        transform transition-transform duration-200 hover:scale-110
-      `}
+      className="w-[104px] h-[33px] px-4 py-2 rounded-full font-bold cursor-pointer"
+      style={{
+        backgroundColor: "#43999F",
+        border: "2px solid #65D6DE",
+        color: "black",
+        boxShadow: "0 4px 6px rgba(101,214,222,0.5)", // sombra do botão (mesma cor da borda)
+        textShadow: "2px 2px 4px rgba(0,0,0,0.3)",
+      }}
     >
       Login
     </button>
