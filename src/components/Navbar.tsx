@@ -13,7 +13,10 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="w-[382px] h-[43px] bg-white/20 text-thin rounded-full border-1 border-white flex gap-4 space justify-evenly p-2 text-white/80 text-[15px]">
+    <div
+      className="w-[382px] h-[43px] bg-[#737373] rounded-full border border-white flex gap-4 justify-evenly p-2 text-[15px] font-thin"
+      style={{ color: "white" }}
+    >
       <p>Home</p>
       <p>Missão</p>
       <p>Futuro</p>
