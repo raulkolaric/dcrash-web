@@ -13,22 +13,13 @@ export default function Navbar() {
   ];
 
   return (
-    <div
-      className="w-[382px] h-[43px] rounded-full flex justify-evenly items-center p-2 text-[15px] border-2 border-white bg-[#737373] text-white"
-      style={{ border: "2px solid white" }}
-    >
-      {menuLinks.map((link) => (
-        <a
-          key={link.name}
-          href={link.href}
-          style={{
-            color: "white",
-            textDecoration: "none",
-          }}
-        >
-          {link.name}
-        </a>
-      ))}
-    </div>
-  );
+    <div className="w-[382px] h-[43px] bg-white/20 text-thin rounded-full border-1 border-white flex gap-4 space justify-evenly p-2 text-white/80 text-[15px]">
+      <p>Home</p>
+      <p>Missão</p>
+      <p>Futuro</p>
+      <p>Features</p>
+      <p>FAQ</p>
+    </div>  
+);
 }
+

@@ -1,8 +1,7 @@
-// app/layout.tsx
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Logo from "@/components/Logo";
-import LoginButton from "@/components/LoginButton";
+import Navbar from "../components/Navbar";
+import Logo from "../components/Logo";
+import LoginButton from "../components/LoginButton";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
