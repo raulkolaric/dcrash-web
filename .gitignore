@@ -1,0 +1,6 @@
+node_modules/
+.next/
+next-env.d.ts
+dcrash-web/node_modules/
+dcrash-web/next-env.d.ts
+dc.gitignore
