@@ -3,7 +3,7 @@
 export default function LoginButton() {
   return (
     <button
-      className="w-[104px] h-[33px] px-4 py-2 rounded-full font-bold cursor-pointer"
+      className="w-[104px] h-[33px] px-4 py-2 rounded-full font-bold"
       style={{
         backgroundColor: "#43999F",
         border: "2px solid #65D6DE",
