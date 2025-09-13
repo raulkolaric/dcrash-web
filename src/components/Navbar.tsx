@@ -4,13 +4,7 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const menuLinks = [
-    { name: "Home", href: "/" },
-    { name: "Missão", href: "/missao" },
-    { name: "Futuro", href: "/futuro" },
-    { name: "Features", href: "/features" },
-    { name: "FAQ", href: "/faq" },
-  ];
+  const menuLinks = ["Home", "Missão", "Futuro", "Features", "FAQ"];
 
   return (
     <div
