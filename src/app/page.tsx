@@ -11,13 +11,15 @@ export default function HomePage() {
       <div className="z-10 max-w-[1320px] mx-auto justify-center min-h-screen w-full font-display">
         <header className="flex items-center justify-between mt-[53px]">
           <Logo width={40} height={40} />
-          <Navbar />
+          <div className="absolute left-1/2 -translate-x-1/2" >
+            <Navbar/>
+          </div>
           <LoginButton />
         </header>
         <div className="pt-20">
           <div className="text-white flex gap-2 justify-center ">
             <LaurelBranchL></LaurelBranchL>
-            <p className="font-medium opacity-60 text-center text-[18px]">+100,000 ocorrências <br></br>armazenadas</p>
+            <p className="font-medium opacity-60 text-center text-[19px] leading-[20px]">+100,000 ocorrências <br></br>armazenadas</p>
             <LaurelBranchR></LaurelBranchR>
           </div>
           <p className="text-center text-7xl pt-20 font-medium bg-gradient-to-r from-[#C7FBFF] to-[#80993A] bg-clip-text text-transparent">
