@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className="bg-black w-full h-screen flex">
       <div className="bg-[#65D6DE]/43 w-[700px] h-[767px] rounded-full blur-[248.1px] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 select-none "></div>
       <div className="z-10 max-w-[1320px] mx-auto justify-center min-h-screen w-full font-display">
-        <header className="flex items-center justify-between bg-black shadow-md mt-[53px]">
+        <header className="flex items-center justify-between mt-[53px]">
           <Logo width={40} height={40} />
           <Navbar />
           <LoginButton />
